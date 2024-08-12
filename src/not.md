@@ -32,6 +32,46 @@
 	  <li>Çoklu işletim sistemlerinde yahut yoğun hesaplama gerektiren işlemlerde kullanılabilir.</li>
 	  <li>Eşzamanlık sorunları sebebiyle debug daha zordur.</li>
 	</ul>
+
 ---
 
 ## Ders 2
+
+- Main fonksiyonun kendisi bir **Main Thread**'dir.
+- Kod yordamıyla oluşturup koşturduğumuz her bir thread ise bir **Worker Thread**'dir.
+- Main ve Worked Thread'ler paralel bir çalışma sergiler ve hangisinin ne zaman çalıştığı, şayet senkron iseler, race condition'a göre değişkenlik gösterir.
+
+### Thread ID
+
+- Bir thread'in tanımlayıcısıdır. Bu kavrama C Programlama sayesinde çok da yabancı değiliz
+- Uygulama debug edilirken karşımıza çıkar ID'ler tam olarak Thread ID'yi tanımlar.
+- Koşmakta olan thread'in ID'sini elde etmek için şu üç yöntemden birine başvurabiliriz;
+	- ```System.Environment.CurrentManagedThreadId```
+	- ```AppDomain.GetCurrentThreadId() ``` *(deprecated)*
+	- ```Thread.CurrentThread.ManagedThreadId```
+
+### IsBackground Property'si
+
+- Bir thread'in koşması Main Thread'e bağlıysa **true** deriz. Bu şekilde işaretlenmiş bir thread, Main Thread sonlandığı an işleminin neresinde olursa olsun sonlandırılır.
+- false değerine sahip olursa; işaretli olan thread sonlanmadığı sürece, Main Thread sona ermez yani uygulama sonlanmaz. Default değer, false'tur.
+- **Foreground Thread**'ler ise, Main Thread sonlansa dahi çalışmaya devam eder.
+
+
+### Thread State'i
+
+- Thread durumunu bize veren bir enum türüdür.
+
+	- Unstarted -> Thread'in henüz başlamadığını ifade eder.
+	- Running -> Thread'in çalıştığını ifade eder.
+	- Background -> Thread'in arkaplanda çalıştığını ifade eder.
+	- StopRequested -> Thread'in durdurulması istenmiştir.
+	- SuspendRequested -> Thread'in askıya alınması istenmiştir
+	- AbortRequested -> Thread'in abort edilmesi istenmiştir.
+	- Stopped -> Thread sonlandırılmıştır.
+	- Suspended -> Thread askıya alınmıştır.
+	- Aborted -> Thread aniden sonlandırılmıştır.
+	- WaitSleepJoin -> Thread ya başka bir thread'i beklemekte, ya da uykudadır.
+
+---
+
+## Ders 3
