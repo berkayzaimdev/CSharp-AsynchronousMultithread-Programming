@@ -75,3 +75,23 @@
 ---
 
 ## Ders 3
+
+### Thread Synchronization nedir?
+
+- Race condition'dan kaynaklanan **deadlock**, **veri bozulması** ve **performans kaybı** gibi durumları önlemeyi sağlayan bir yaklaşımlar bütünüdür.
+- Ne CLR ne de İşletim Sistemi tarafından sağlanan bir yaklaşım olmamasından ötürü, bizim sağlamamız gereken bir durum olarak karşımıza çıkar.
+- Blocking ve Non-Blocking Synchronization olmak üzere ikiye ayrılır;
+
+	- **Blocking Synchronization**
+		- Bir thread, diğer bir thread'in tamamlanmasını veya veriye erişimini beklemektedir.
+		- Bu bekleme, belirli bir koşula bağlı olabileceği gibi **locking** mekanizmalarıyla da sağlanabilir.
+		- Bloke edilen thread, diğer thread'in işi bittikten sonra devam eder.
+
+	- **Non-Blocking Synchronization**
+		- Thread'ler birbirini bloke etmeksizin eşzamanlı olarak çalışırlar.
+
+### Spinning nedir?
+
+- **Blocking Synchronization**'a  benzer bir yaklaşımdır.
+- Thread'leri belirli bir koşula karşın döngü ile bloklatmayı sağlar.
+- Beklenen koşul gerçekleşene kadar thread'in aktif bir şekilde çalışmasını sağlar. Bu bekleyiş, **busy-waiting** veya **spinning** bekleyiş olarak ifade edilebilir.

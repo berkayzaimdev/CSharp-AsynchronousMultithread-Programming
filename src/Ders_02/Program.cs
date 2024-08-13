@@ -191,7 +191,7 @@
 
 #endregion
 
-#region Thread İptal Etme
+#region Thread İptal Etme I
 
 //bool flag = false;
 
@@ -213,7 +213,7 @@
 
 #endregion
 
-#region Thread İptal Etme
+#region Thread İptal Etme II
 
 //Thread thread = new((cancellationToken) =>
 //{
