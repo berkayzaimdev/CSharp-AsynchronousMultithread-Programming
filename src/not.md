@@ -95,3 +95,46 @@
 - **Blocking Synchronization**'a  benzer bir yaklaşımdır.
 - Thread'leri belirli bir koşula karşın döngü ile bloklatmayı sağlar.
 - Beklenen koşul gerçekleşene kadar thread'in aktif bir şekilde çalışmasını sağlar. Bu bekleyiş, **busy-waiting** veya **spinning** bekleyiş olarak ifade edilebilir.
+
+---
+
+## Ders 5
+
+### Blocking Synchronization
+
+#### Avantajları
+- Basitlik ve Kolaylık
+	- Daha basit bir senkronizasyon yöntemidir ve daha anlaşılır bir yazımı vardır.
+- Stabilite ve Güvenilirlik
+	- Belirli bir kaynağa t zamanda sadece tek bir thread'in erişimine izin verir, bu da senkronizasyonu sağlar.
+
+#### Dezavantajları
+- Performans Sorunları
+	- Thread'ler bekletildiği için performans sıkıntıları yaşanabilir.
+- Deadlock & Race Condition
+	- Kilitleme bu durumlara yol açabilir.
+- Ölçeklenebilirlik Sorunları
+- Uyku & Uyanma Maliyeti
+	- Thread'lerin bekletilmesi, OS düzeyinde uyandırma maliyetini ortaya çıkarır. Bu da kaynak tüketimi yaratan bir durumdur.
+
+
+
+### non-Blocking Synchronization
+
+#### Avantajları
+- Performans
+	- Bloklanma olmadığı için kaynaklar daha etkili kullanılır.
+- Kullanılabilirlik
+	- Kod karmaşası azalır, kullanım kolaylaşır.
+
+#### Dezavantajları
+- Uygulama Karmaşıklığı
+	- Kod karmaşıklığı azalmakta , fakat bu yöntem daha karmaşık algoritmalar özelinde kullanıldığı için yine de bir karmaşıklık oluşacaktır
+- Bellek Kullanımı
+	- Bazen fazla kullanıma neden olabilir
+- Güvenlik
+	- Yanlış kullanıldığı takdirde güvenlik açığı yaratabilir.
+
+### volatile Keyword
+
+- 
