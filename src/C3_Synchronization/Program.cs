@@ -1,4 +1,6 @@
-﻿#region Spinning
+﻿return;
+
+#region Spinning
 
 //bool threadCondition = true;
 
