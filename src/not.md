@@ -57,8 +57,7 @@
 - **Foreground Thread**'ler ise, Main Thread sonlansa dahi çalışmaya devam eder.
 
 
-### Thread State'i
-
+### Thread State
 - Thread durumunu bize veren bir enum türüdür.
 
 	- Unstarted -> Thread'in henüz başlamadığını ifade eder.
@@ -135,6 +134,21 @@
 - Güvenlik
 	- Yanlış kullanıldığı takdirde güvenlik açığı yaratabilir.
 
-### volatile Keyword
+---
 
-- 
+## Ders 6
+
+### Interlocked Class
+
+- Atomic işlemler için tasarlanmış olup, multi-threading veya asenkron operasyonlar için elverişlidir.
+- primitive tipler için best case yaklaşımdır. Locked mekanizmaları yerine kullanılmalıdır.
+- Performans açısından en iyi senkronizasyon yöntemlerinden biridir.
+- volatile keyword sadece basit okuma ve yazma senaryolarında kullanılır. Interlocked ise değişkene eşzamanlı erişimi yönetmek gibi daha gelişmiş senaryolarda kullanılır.
+
+### MemoryBarrier
+
+- Bir thread in bellek üzerinde yapılan değişiklikleri görmesi için kesme noktaları oluşturur.
+- Threadlerin belleğe erişim sırasını yönetir.
+- Full Fence kullanım; Thread.MemoryBarrier() => kesme noktası gibi düşünürsek çağrılmasından önceki tüm bellek erişimlerini tamamlanmış hale getirir ve bu noktadan sonraki tüm bellek erişimlerini engeller. (threadler için bir çit görevi görür)
+- Half Fence kullanım; yalnızca belirli bir değişken üzerindeki erişimleri düzenler. Interlocked metotları ile kullanımı yapılabilir.
+
