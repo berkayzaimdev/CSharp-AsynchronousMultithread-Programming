@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_InterlockedClass_MemoryB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_SpinningSync", "C7_SpinningSync\C7_SpinningSync.csproj", "{67C51108-02A8-4C80-A209-68B2FDA8C1B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_ReaderWriterLock", "C8_ReaderWriterLock\C8_ReaderWriterLock.csproj", "{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{67C51108-02A8-4C80-A209-68B2FDA8C1B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C51108-02A8-4C80-A209-68B2FDA8C1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C51108-02A8-4C80-A209-68B2FDA8C1B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
