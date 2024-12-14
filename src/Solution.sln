@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_SpinningSync", "C7_Spinn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_ReaderWriterLock", "C8_ReaderWriterLock\C8_ReaderWriterLock.csproj", "{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C9_ResetEvent_CountdownEvent", "C9_ResetEvent_CountdownEvent\C9_ResetEvent_CountdownEvent.csproj", "{CAE1FE8B-36EA-4556-AF2D-829F8A040C32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B2397F9-6E31-414D-9F4F-8B48E5A5DB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE1FE8B-36EA-4556-AF2D-829F8A040C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE1FE8B-36EA-4556-AF2D-829F8A040C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE1FE8B-36EA-4556-AF2D-829F8A040C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE1FE8B-36EA-4556-AF2D-829F8A040C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

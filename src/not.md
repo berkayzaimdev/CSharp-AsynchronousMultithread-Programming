@@ -152,3 +152,10 @@
 - Full Fence kullanım; Thread.MemoryBarrier() => kesme noktası gibi düşünürsek çağrılmasından önceki tüm bellek erişimlerini tamamlanmış hale getirir ve bu noktadan sonraki tüm bellek erişimlerini engeller. (threadler için bir çit görevi görür)
 - Half Fence kullanım; yalnızca belirli bir değişken üzerindeki erişimleri düzenler. Interlocked metotları ile kullanımı yapılabilir.
 
+---
+
+## Ders 9
+
+### Signalling
+
+- Thread'in belirli bir olayın gerçekleştiğini bildirmesi, ve duruma göre aksiyon alınmasını sağlamasıdır.
