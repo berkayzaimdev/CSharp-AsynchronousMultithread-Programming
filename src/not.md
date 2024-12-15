@@ -159,3 +159,15 @@
 ### Signalling
 
 - Thread'in belirli bir olayın gerçekleştiğini bildirmesi, ve duruma göre aksiyon alınmasını sağlamasıdır.
+
+---
+
+## Ders 10 ⭐
+
+### Thread Pool
+
+- Birden fazla Thread'i yönetmek ve tekrar kullanmayı sağlamak amacıyla kullanılan statik sınıf.
+- ```QueueUserWorkItem``` metodu sayesinde havuzdan bir Thread çekilir ve parameter olararak verilen metot koşturulur.
+- İlk oluşturulduğunda bir thread ile başlar.
+- Uygulama kapatıldığı takdirde tüm thread'lerin otomatik durdurulmasını sağlar.
+- Optimizasyonu için sadece havuzda çalışacak min ve max thread sayısını belirleyebiliyoruz.
