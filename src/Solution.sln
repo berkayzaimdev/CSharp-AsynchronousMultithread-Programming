@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C9_ResetEvent_CountdownEven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C10_WaitHandles_ThreadPool", "C10_WaitHandles_ThreadPool\C10_WaitHandles_ThreadPool.csproj", "{63F87191-4680-4823-B93E-A69C0E63AE15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C11_BarrierClass", "C11_BarrierClass\C11_BarrierClass.csproj", "{B8FF12F0-2CC3-4A24-888F-516BC272445E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{63F87191-4680-4823-B93E-A69C0E63AE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F87191-4680-4823-B93E-A69C0E63AE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F87191-4680-4823-B93E-A69C0E63AE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FF12F0-2CC3-4A24-888F-516BC272445E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FF12F0-2CC3-4A24-888F-516BC272445E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FF12F0-2CC3-4A24-888F-516BC272445E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FF12F0-2CC3-4A24-888F-516BC272445E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
