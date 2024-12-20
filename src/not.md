@@ -171,3 +171,23 @@
 - İlk oluşturulduğunda bir thread ile başlar.
 - Uygulama kapatıldığı takdirde tüm thread'lerin otomatik durdurulmasını sağlar.
 - Optimizasyonu için sadece havuzda çalışacak min ve max thread sayısını belirleyebiliyoruz.
+
+---
+
+## Ders 14 ⭐
+
+### Task Class
+
+#### Task Sınıfı Nedir?
+
+- C# dilinde asenkron operasyonları temsil etmek için kullanılan, oldukça yaygın olan bir sınıftır.
+- Task sınıfı sayesinde bir thread'i , farklı bir thread içerisinde çalıştırabilir ve bu sayede main thread'i bloklamadan işlemlere devam edebiliriz.
+
+
+
+|                                                                     **Task**                                                                     |                                                       **Thread**                                                        |
+|:------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|
+|                                                        Asenkron programlamada kullanılır                                                         |                        Daha düşük seviyede thread yönetimi gerektiren senaryolarda tercih edilir                        |
+|                                          async ve await keyword'leri ile daha modern bir yaklaşım sunar                                          |                                 Doğrudan thread oluşturulmasını ve yönetilmesini sağlar                                 |
+| .NET tarafından otomatize yönetimi vardır. Thread Pool kullanarak thread'leri daha etkin bir şekilde yönetebilir. Kaynakları daha etkin kullanır | Daha fazla sistem kaynağı tüketir ve işletim sistemi tarafından yönetilen bir mekanizma sağlar. Yeni thread oluşturulur |
+|                                                  Asenkron süreçlerde daha fazla kontrol sağlar                                                   |                                İşlemci yoğunluğu gerektiren işlemler için daha uygundur.                                |
