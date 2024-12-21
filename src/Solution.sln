@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C13_Timers", "C13_Timers\C1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C14_TaskClass", "C14_TaskClass\C14_TaskClass.csproj", "{EA5BDDBF-B527-4DD2-866A-8BF2C112AFC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C15_TaskFactory_TaskScheduler_TaskCompletionSource", "C15_TaskFactory_TaskScheduler_TaskCompletionSource\C15_TaskFactory_TaskScheduler_TaskCompletionSource.csproj", "{3253D635-1970-40E0-97FF-AE46F6ED1264}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,10 @@ Global
 		{EA5BDDBF-B527-4DD2-866A-8BF2C112AFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA5BDDBF-B527-4DD2-866A-8BF2C112AFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA5BDDBF-B527-4DD2-866A-8BF2C112AFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
