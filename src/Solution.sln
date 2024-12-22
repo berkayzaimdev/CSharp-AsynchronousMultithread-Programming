@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C14_TaskClass", "C14_TaskCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C15_TaskFactory_TaskScheduler_TaskCompletionSource", "C15_TaskFactory_TaskScheduler_TaskCompletionSource\C15_TaskFactory_TaskScheduler_TaskCompletionSource.csproj", "{3253D635-1970-40E0-97FF-AE46F6ED1264}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C16_AsyncAwait", "C16_AsyncAwait\C16_AsyncAwait.csproj", "{F05D9F95-1CD6-4551-9229-6E73F4C7D80A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +106,10 @@ Global
 		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3253D635-1970-40E0-97FF-AE46F6ED1264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05D9F95-1CD6-4551-9229-6E73F4C7D80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05D9F95-1CD6-4551-9229-6E73F4C7D80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05D9F95-1CD6-4551-9229-6E73F4C7D80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05D9F95-1CD6-4551-9229-6E73F4C7D80A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
