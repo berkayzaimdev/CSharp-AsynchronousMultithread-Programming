@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C17_ConfigureAwait_Cancella
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C18_IAsyncEnumerable_IAsyncEnumerator", "C18_IAsyncEnumerable_IAsyncEnumerator\C18_IAsyncEnumerable_IAsyncEnumerator.csproj", "{43A516A7-98D7-4D1B-BB16-79D0EDFFD00F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C19_ConcurrentCollections", "C19_ConcurrentCollections\C19_ConcurrentCollections.csproj", "{73B49FD8-A720-4018-9D40-63281F529D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +124,10 @@ Global
 		{43A516A7-98D7-4D1B-BB16-79D0EDFFD00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A516A7-98D7-4D1B-BB16-79D0EDFFD00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A516A7-98D7-4D1B-BB16-79D0EDFFD00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B49FD8-A720-4018-9D40-63281F529D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B49FD8-A720-4018-9D40-63281F529D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B49FD8-A720-4018-9D40-63281F529D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B49FD8-A720-4018-9D40-63281F529D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
